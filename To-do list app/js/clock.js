@@ -10,6 +10,7 @@ function getClock () {
 
     clock.innerText = `Right now, you're at ${hh}:${mm}:${ss}`;
 }
+//padStart --> padStart(how long the number should be, "puts this number in front if it is shorter than it should be")
 
 getClock();
 setInterval(getClock, 1000);
