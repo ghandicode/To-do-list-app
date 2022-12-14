@@ -8,7 +8,7 @@ function getClock () {
     const mm = String(date.getMinutes()).padStart(2, "0");
     const ss = String(date.getSeconds()).padStart(2, "0");
 
-    clock.innerText = `Right now, you're at ${hh}:${mm}:${ss}`;
+    clock.innerText = `${hh}:${mm}:${ss}`;
 }
 //padStart --> padStart(how long the number should be, "puts this number in front if it is shorter than it should be")
 
